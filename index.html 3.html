@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>     
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<script type="text/javascript" src="index3.js"></script>
+<link rel="stylesheet" href="style.css 3.css">    
 <meta name="viewport" content="width=device-width, initial-scale=1.0">             
 <title> Boka Rum</title>
 </head>
 <body>
+  <a href="Schema3.html">Schema</a>
 <h1>Välkommen till sidan där ni har möjlighet att boka rum</h1>
-<p>Jag rekomenderar er den här simpla sidan där ni kan få snabb hjälp</p>
-
- 
-    <img src=”WEB-ICON-Calendar.jpeg” alt="calender" style="width:auto;">
- 
-<p>klicka här för att komma till sidan</p>
-<a href=”http://www.BokaRum.se”>Länk</a>
+<p id="null">Jag rekomenderar er den här simpla sidan där ni kan få snabb hjälp</p>
+<div id="bokningsWrapper">
+  <p id="Tack"></p>
+  <div id="formWrapper">
+    <p>klicka här för att komma till sidan</p>
+    <a href="http://www.BokaRum.se">Länk</a>
+    <form id="value">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" value=""><br><br>
+      <label for="Telefonnummer">Telefonnummer:</label><br>
+      <input type="text" id="Telefonnummer" value=""><br><br>
+      <label for="adress">adress:</label><br>
+      <input type="text" id="adress" value=""><br><br>
+      <label for="postnummer">Postnummer:</label><br>
+      <input type="text" id="postnummer"value=""><br><br>
+      <label for="kommentar">kommentar:</label><br>
+      <textarea name="" id="kommentar" cols="70" rows="10"></textarea>
+      <button type="button" onclick="myFunction()" value="Submit">Submit</button>
+    </form>
+  </div id="öppettider">
+  
+</div>
+<footer>
+  <p>Author: mailto Refsnes<br>
+  <a href="Tomas.Hikmet@stud.sti.se">Tomas.Hikmet@stud.sti.se</a></p>
+  <p>Author: Telefonnummer Refsnes<br>
+    <a href="0700143002">0700143002</a></p>
+</footer> 
 </body>
 </html>

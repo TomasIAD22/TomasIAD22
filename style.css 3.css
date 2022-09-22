@@ -1,55 +1,58 @@
 body {
+	background-image: url("WEB-ICON-Calendar.jpeg");
+	background-repeat:no-repeat;
+	background-size: cover;
 	font-family: Trebuchet MS;
 	font-size: 16px;
-	color: #555;
+	color:black;
 	margin: 0px;
 	padding: 0px;
 }
-#wrapper {
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
+
+#bokningsWrapper {
+	width: 20%;
+	margin-left:20%;
 }
+
+#bokningsWrapper > img {
+	width: 700px;
+	height: 700px;;
+	margin:0px;
+
+}
+
 header {
 	height: 80px;
 	padding: 2%;
-	background-color: #DDD;
+	
 }
-nav {
-	height: 50px;
-	background-color: #CCC;
-}
-ul {
-	margin: 0px 1%;
-	padding: 0px;
-	list-style-type: none;
-	display: block;
-}
-nav ul li a {
-	margin: 14px;
-	display: block;
-	float: left;
-	text-decoration: none;
-	color: #555;
-}
-#sidebar {
-	width: 26%;
-	min-height: 400px;
-	float: right;
-	padding: 2%;
-	background-color: #DDD;
-}
-article {
-	width: 66%;
-  min-height: 400px;
-	float: left;
-	padding: 2%;
-	background-color: #EEE;
-}
+
 footer {
-	width: 100%;
-	max-width: 1000px;
+	width:200%;
+	max-width:2000px;
 	margin: 0 auto;
 	overflow: auto;
-  background-color: #CCC;
+	
 }
+#Tack{
+font-size: 30px;
+margin: 0px;	
+}
+footer{
+position: fixed;	
+bottom:0;
+width: 100px;
+}
+div {
+	width:30%;	
+	margin:0 auto;
+	text-align: center;
+	}
+	table {
+		table-layout:inherit;
+		width:150%;
+		background-color:rgb(253, 162, 162);	
+	  }
+	  table, td, th{
+	border: solid 1px black;
+	  }
